@@ -16,6 +16,7 @@
 
 ## Data Communication and Networking
 ##### NetaCad: https://www.netacad.com/
+##### Packet Tracer Download: https://www.netacad.com/portal//resources/packet-tracer
 ##### Packet Tracer Course(necessary for packet tracer login): https://www.netacad.com/courses/packet-tracer
 
 
