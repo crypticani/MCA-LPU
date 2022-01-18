@@ -1,0 +1,36 @@
+OS - Types OS, Examples of System S/w and Application S/W
+
+Open Source S/w - Source code freely available, anyone can modify it.
+
+Diff. b/w Linux and Windows
+
+GRUB - Grand Unified Bootloader
+	- Multi Boot
+	- Default bootloader of redhat
+
+LILO- Linux Loader
+	- Single OS
+	
+Booting Procedure
+Runlevels
+
+Terminal - 
+	Bash - Bourne again shell
+	
+Commands:
+touch vs cat
+sort- different ways of sorting
+
+User permissions
+hard link vs soft link
+
+only basics of these:
+	vi and it's modes
+
+	installing rpm package
+
+	how to execute shell script, 
+	how to execute c program
+
+	
+	
