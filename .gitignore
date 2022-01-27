@@ -15,8 +15,11 @@ Semester1/Linux/Practical-Class/
 Semester1/Assignments/CA1/MyFiles/*
 Semester1/Assignments/CA3/MyFiles/*
 
-#PEP
-PEP/
+#PEP CPrograms
+PEP/CPrograms/*
 
 #Java Programs
 #Semester2/Java/JavaPrograms/
+
+# ignore files withot extension
+
