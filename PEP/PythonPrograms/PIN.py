@@ -1,7 +1,7 @@
 def getSum(n):
     sum = 0
-    for digit in str(n): 
-      sum += int(digit)      
+    for digit in str(n):
+        sum += int(digit)
     return sum
 
 
@@ -10,7 +10,7 @@ def Decode(pinArray):
     for i in pinArray:
         while i > 9:
             i = getSum(i)
-        if i%2 == 0:
+        if i % 2 == 0:
             pin = pin + str(i)
         else:
             if i == 1:

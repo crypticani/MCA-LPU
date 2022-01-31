@@ -18,6 +18,9 @@ Semester1/Assignments/CA3/MyFiles/*
 #PEP CPrograms
 PEP/CPrograms/*
 
+#PEP .vscode
+PEP/.vscode/
+
 #Java Programs
 #Semester2/Java/JavaPrograms/
 
