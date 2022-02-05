@@ -21,6 +21,12 @@ PEP/CPrograms/*
 #PEP .vscode
 PEP/.vscode/
 
+#PEP Applications Folder
+PEP/Applications
+
+# Web Codes
+Semester2/WebTechnologies/Codes/
+
 #Java Programs
 #Semester2/Java/JavaPrograms/
 

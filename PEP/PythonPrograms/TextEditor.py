@@ -1,5 +1,6 @@
 import re
 
+
 def editorMiss(textInput):
     count = 0
     for i in textInput:
@@ -7,12 +8,14 @@ def editorMiss(textInput):
             count+=1
     return count
 
+
 def main():
     #input for text input
     textInput = str(input())
 
     result = editorMiss(textInput)
     print(result)
+
 
 if __name__ == "__main__":
     main()

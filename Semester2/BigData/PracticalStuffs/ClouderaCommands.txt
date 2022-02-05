@@ -1,0 +1,18 @@
+cd /usr/lib/
+
+cd /opt/cloudera/
+
+hdfs dfs -ls /
+
+$ service cloudera-scm-server status
+
+# To start the cloudera:
+sudo /home/cloudera/cloudera-manager --force --express
+
+http://quickstart.cloudera:7180
+username: cloudera
+password: cloudera
+
+# In browser:
+Sidebar-> Sqoop2->
+Sidebar-> Hosts
