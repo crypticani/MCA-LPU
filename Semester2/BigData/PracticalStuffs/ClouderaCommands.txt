@@ -13,3 +13,20 @@ http://quickstart.cloudera:7180
 username: cloudera
 password: cloudera
 
+//create empty file in dfs
+hdfs dfs -touchz /bigdatatesting/test.dat
+hdfs dfs -du -s /bigdatatesting/test.dat
+hdfs dfs -appendToFile - /bigdatatesting/test.dat
+
+hdfs basic commands:
+	ls
+	mkdir
+	jps
+	fsck
+	touchz
+	du
+	appendToFile
+	copyFromLocal(put)
+	copyToLocal(get)
+	test
+	checksum
