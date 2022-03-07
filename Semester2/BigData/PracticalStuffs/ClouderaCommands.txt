@@ -23,10 +23,26 @@ hdfs basic commands:
 	mkdir
 	jps
 	fsck
-	touchz
-	du
+	cat
+	touchz - create a file with 0 bytes of size
+	du - size of the file
 	appendToFile
 	copyFromLocal(put)
 	copyToLocal(get)
 	test
 	checksum
+	
+# MySQL commands:
+- to check the status of mysql service:
+	sudo service mysqld status
+- to login to mysql:
+	mysql -u root -h localhost -p
+- MySQL commands- 
+	- show databases
+	- use <database_name>
+	- create database <database_name>
+	- show tables
+	- create table <table_name>
+	- desc <table_name>
+	- insert into <table_name> values ()
+	- select * from <table_name>
