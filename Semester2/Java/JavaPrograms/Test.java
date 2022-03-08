@@ -1,9 +1,25 @@
-public class Test {
-    public static void main(String[] args) {
-        int arr[] = {010, 102, 17};
+class Test {
 
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i]+ " ");
-        }
-    }
+    public static void main(String args[]) 
+
+    {
+
+        double a, b,c;
+
+        a = 3.0/0;
+
+        b = 0/4.0;
+
+        c=0/0.0;
+
+
+
+    System.out.println(a);
+
+        System.out.println(b);
+
+        System.out.println(c);
+
+    } 
+
 }
