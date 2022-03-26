@@ -18,6 +18,9 @@ hdfs dfs -touchz /bigdatatesting/test.dat
 hdfs dfs -du -s /bigdatatesting/test.dat
 hdfs dfs -appendToFile - /bigdatatesting/test.dat
 
+local file system commands:
+	cat
+	
 hdfs basic commands:
 	ls
 	mkdir
@@ -46,3 +49,5 @@ hdfs basic commands:
 	- desc <table_name>
 	- insert into <table_name> values ()
 	- select * from <table_name>
+	
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount <input file name> <output file name>
