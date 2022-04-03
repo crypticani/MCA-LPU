@@ -44,8 +44,12 @@ hdfs dfs -appendToFile - /bigdatatesting/test.dat
 	- create database <database_name>
 	- show tables
 	- create table <table_name>
-	- desc <table_name>
+	- desc <table_name> / describe <table_name> #show table description
 	- insert into <table_name> values ()
 	- select * from <table_name>
+	- alter table <table_name> add columns(<column_name> <data_type>) #add new column
+	alter table <table_name> change column <column_name> after <column_name> #change column position
 	
+hadoop fs -cat filein /user/cloudera
+
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount <input file name> <output file name>

@@ -36,15 +36,16 @@ class University{
 
 public class Set7Q1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("University seat allocation");
-        System.out.print("Enter NTS marksin percentage: ");
-        double nts = sc.nextDouble();
-        System.out.print("Enter FSc marks in percentage: ");
-        double fsc = sc.nextDouble();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("University seat allocation");
+            System.out.print("Enter NTS marksin percentage: ");
+            double nts = sc.nextDouble();
+            System.out.print("Enter FSc marks in percentage: ");
+            double fsc = sc.nextDouble();
 
-        System.out.println("You have got a seat in:");
-        University u = new University();
-        u.SeatAllocation(nts, fsc);
+            System.out.println("You have got a seat in:");
+            University u = new University();
+            u.SeatAllocation(nts, fsc);
+        }
     }
 }

@@ -37,6 +37,6 @@ class SwingDemo1 implements ActionListener {
     }
 
     public static void main(String args[]) {
-        SwingDemo1 s1 = new SwingDemo1();
+        new SwingDemo1();
     }
 }

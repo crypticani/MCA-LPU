@@ -26,33 +26,33 @@ class Matrix{
 
 public class Set4Q3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter no of row: ");
-        int row = sc.nextInt();
-        System.out.print("Enter no of coloum: ");
-        int col = sc.nextInt();
-        int arr1[][] = new int[row][col];
-        int arr2[][] = new int[row][col];
-        
-        //getting input of first matrix
-        System.out.println("Enter elements of first matrix: ");
-        for(int i=0; i<row; i++){
-            for(int j=0; j<col; j++){
-                arr1[i][j] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter no of row: ");
+            int row = sc.nextInt();
+            System.out.print("Enter no of coloum: ");
+            int col = sc.nextInt();
+            int arr1[][] = new int[row][col];
+            int arr2[][] = new int[row][col];
+            
+            //getting input of first matrix
+            System.out.println("Enter elements of first matrix: ");
+            for(int i=0; i<row; i++){
+                for(int j=0; j<col; j++){
+                    arr1[i][j] = sc.nextInt();
+                }
             }
-        }
 
-        //getting input of second matrix
-        System.out.println("Enter elements of second matrix: ");
-        for(int i=0; i<row; i++){
-            for(int j=0; j<col; j++){
-                arr2[i][j] = sc.nextInt();
+            //getting input of second matrix
+            System.out.println("Enter elements of second matrix: ");
+            for(int i=0; i<row; i++){
+                for(int j=0; j<col; j++){
+                    arr2[i][j] = sc.nextInt();
+                }
             }
-        }
 
-        System.out.println("Product:");
-        Matrix m = new Matrix();
-        m.Product(row, col, arr1, arr2);
+            System.out.println("Product:");
+            Matrix m = new Matrix();
+            m.Product(row, col, arr1, arr2);
+        }
     }
 }

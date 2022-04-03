@@ -11,15 +11,16 @@ public class Calculator {
         return x-y;
     }
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
-        System.out.println("Enter the numbers: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int add = addition(a, b);
-        int div = division(a, b);
-        int sub = subtraction(a, b);
-        System.out.println("Addition: "+add);
-        System.out.println("Division: "+div);
-        System.out.println("Subtraction: "+sub);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the numbers: ");
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int add = addition(a, b);
+            int div = division(a, b);
+            int sub = subtraction(a, b);
+            System.out.println("Addition: "+add);
+            System.out.println("Division: "+div);
+            System.out.println("Subtraction: "+sub);
+        }
     }
 }

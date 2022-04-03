@@ -56,6 +56,6 @@ public class Addition implements ActionListener {
     }
 
     public static void main(String args[]) {
-        Addition t = new Addition();
+        new Addition();
     }
 }

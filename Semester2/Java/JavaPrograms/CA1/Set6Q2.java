@@ -26,19 +26,20 @@ class BookSeller{
 }
 public class Set6Q2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to reward club!");
-        System.out.print("Enter the number of books purchased:");
-        int n = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Welcome to reward club!");
+            System.out.print("Enter the number of books purchased:");
+            int n = sc.nextInt();
 
-        BookSeller b = new BookSeller();
-        int reward = b.Reward(n);
+            BookSeller b = new BookSeller();
+            int reward = b.Reward(n);
 
-        if(reward == -1){
-            System.out.println("Invalid Input!");
-        }
-        else{
-            System.out.println("Reward Points: "+reward);
+            if(reward == -1){
+                System.out.println("Invalid Input!");
+            }
+            else{
+                System.out.println("Reward Points: "+reward);
+            }
         }
     }
     

@@ -28,11 +28,12 @@ class Time{
 
 public class Set7Q2 {
     public static int getDays(){
-        Scanner sc = new Scanner(System.in);
-        int d;
-        System.out.print("Days: ");
-        d = sc.nextInt();
-        return d;
+        try (Scanner sc = new Scanner(System.in)) {
+            int d;
+            System.out.print("Days: ");
+            d = sc.nextInt();
+            return d;
+        }
     }
 
     public static void main(String[] args) {

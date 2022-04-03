@@ -12,7 +12,6 @@ class Student{
   }
 
   private double getAvg(double[] m){
-    double avg = 0;
     double best1 = m[0];
     double best2 = m[1];
 
@@ -41,24 +40,25 @@ class Student{
 
 public class Set4Q1 {
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      Student[] obj = new Student[5];
+      try (Scanner sc = new Scanner(System.in)) {
+        Student[] obj = new Student[5];
 
-      for(int o=0; o<5; o++){
-        String st_name;
-        double ca_marks[] = {0,0,0};
-        System.out.print("Student"+(o+1)+" name:");
-        st_name = sc.next();
-        for(int i=0; i<3; i++){
-          System.out.print("CA"+(i+1)+": ");
-          ca_marks[i] = sc.nextDouble();
+        for(int o=0; o<5; o++){
+          String st_name;
+          double ca_marks[] = {0,0,0};
+          System.out.print("Student"+(o+1)+" name:");
+          st_name = sc.next();
+          for(int i=0; i<3; i++){
+            System.out.print("CA"+(i+1)+": ");
+            ca_marks[i] = sc.nextDouble();
+          }
+          obj[o] = new Student(st_name, ca_marks);
         }
-        obj[o] = new Student(st_name, ca_marks);
-      }
 
-      System.out.println("Calculating avg of best 2 marks.");
-      for(int o=0; o<5; o++){
-        obj[o].display();
+        System.out.println("Calculating avg of best 2 marks.");
+        for(int o=0; o<5; o++){
+          obj[o].display();
+        }
       }
     }
 }

@@ -1,7 +1,6 @@
 package CollectionFramework;
 
 import java.util.*;
-import java.io.*;
 
 public class SystemProperties {
     public static void main(String[] args) throws Exception {
