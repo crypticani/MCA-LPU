@@ -1,0 +1,23 @@
+import java.sql.*;
+class Retrieve
+{
+	public static void main(String args[]) throws Exception
+	{
+	DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
+	Connection con = DriverManager.getConnection( 	“jdbc:oracle:thin:@localhost:1521:xe”, “scott”, “tiger”);
+	Statement stmt = con.createStatement();
+	ResultSet rs = stmt.executeQuery(“Select * from emp”);
+	
+	while(rs.next())
+	{
+	System.out.println(rs.getInt(1));
+	System.out.println(rs.getString(2));
+	System.out.println(rs.getFloat(3));
+	System.out.println("====================");
+	}
+	con.close();
+	}
+}
+
+// To execute the program set the class path
+// set classpath = c:\program files\java\java8\jre\lib\ojdbc.jar;.;

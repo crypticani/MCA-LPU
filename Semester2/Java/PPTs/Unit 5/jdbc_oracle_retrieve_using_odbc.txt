@@ -1,0 +1,29 @@
+import java.sql.*;
+class Retrieve
+{
+	public static void main(String args[]) throws Exception
+	{
+
+	DriverManager.registerDriver(new sun.jdbc.odbc.jdbcodbcDriver());
+
+	Connection con = DriverManager.getConnection( “jdbc:odbc:mydsn","scott","tiger");
+
+	Statement stmt = con.createStatement();
+
+	ResultSet rs = stmt.executeQuery(“Select * from emp”);
+	
+	while(rs.next())
+	{
+	System.out.println(rs.getInt(1));
+	System.out.println(rs.getString(2));
+	System.out.println(rs.getFloat(3));
+	System.out.println("====================");
+	}
+
+	con.close();
+	}
+}
+
+//Before execute this program create the JDBC-ODBC bridge using ODBC from Control Panel->Administraitve Tools->Data Sorce->Microsoft ODBC for Oracle
+// To execute the program set the class path
+// set classpath = c:\program files\java\java8\jre\lib\ojdbc.jar;.;

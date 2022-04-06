@@ -1,0 +1,23 @@
+// Narrowing in Referenced Data Types
+import java.sql.*;
+
+class Test
+{
+	public static void main(String args[]) throws Exception
+	{
+	DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college?user=root&password=manager");
+	Statement stmt= con.createStatement();
+	ResultSet rs = stmt.executeQuery("Select * from student");
+	while(rs.next())
+	{
+	System.out.println(rs.getInt(1));
+	System.out.println(rs.getString(2));
+	System.out.println(rs.getInt(3));	
+	}
+	con.close();
+}
+}
+
+// To execute the program set the class path
+// set classpath = c:\program files\java\java8\jre\lib\mysql.jar;.;

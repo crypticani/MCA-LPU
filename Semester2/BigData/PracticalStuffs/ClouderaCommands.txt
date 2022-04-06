@@ -53,3 +53,7 @@ hdfs dfs -appendToFile - /bigdatatesting/test.dat
 hadoop fs -cat filein /user/cloudera
 
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount <input file name> <output file name>
+
+# two main components of hdfs:
+	namenode - master
+	datanode - slave

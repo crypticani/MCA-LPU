@@ -1,0 +1,19 @@
+import java.sql.*;
+class AccessData
+{
+	public static void main(String args[]) throws Exception
+	{
+	DriverManager.registerDriver(new sun.jdbc.odbc.JdbcOdbcDriver());
+	Connection con = DriverManager.getConnection( "jdbc:odbc:jac", "", "");
+	Statement stmt = con.createStatement();
+	ResultSet rs = stmt.executeQuery("Select * from table1");
+	
+	while(rs.next())
+	{
+	System.out.println(rs.getInt(1));
+	System.out.println(rs.getString(2));
+	System.out.println(rs.getFloat(3));
+	}
+	con.close();
+	}
+}

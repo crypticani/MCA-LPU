@@ -1,0 +1,26 @@
+// Narrowing in Referenced Data Types
+import java.sql.*;
+
+class Insertion
+{
+	public static void main(String args[]) throws Exception
+	{
+
+	DriverManager.registerDriver(new oracle.jdbc.driver.oracleDriver());
+
+	Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","scott", "tiger");
+
+	Statement stmt= con.createStatement();
+
+	int norows = stmt.executeUpdate("insert into emp(empno) values (777)");
+	System.out.println("No. of rows are affected="+norows);
+
+	norows = stmt.executeUpdate("insert into emp values (778, 'Suraj', 5000)");
+	System.out.println("No. of rows are affected="+norows);
+
+	con.close();
+}
+}
+
+// To execute the program set the class path
+// set classpath = c:\program files\java\java8\jre\lib\ojdbc.jar;.;
