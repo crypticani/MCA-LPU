@@ -16,6 +16,11 @@
 `cd /opt/cloudera/`
 
 # Hadoop
+## Hadoop Ecosystem:
+- Apache Hadoop ecosystem refers to the various components of the Apache Hadoop software library.
+- it includes open source projects as well as a complete range of complementary tools.
+- Some of the most well-known tools of the Hadoop ecosystem include HDFS, Hive,YARN, MapReduce, Spark, HBase, Sqoop
+
 ## Components of Hadoop:
 	- The first component of Hadoop that is, Hadoop Distributed File System (HDFS) is responsible for storing the file. 
 	- The second component that is, Map Reduce is responsible for processing the file.
@@ -94,6 +99,8 @@
 	
 	
 # SQOOP:
+Sqoop is a command-line interface application for transferring data between relational databases and Hadoop.
+
 	1. List Tables: `sqoop list -tables`
 	
 	2. Import: `sqoop import --connect jdbc:mysql://<path> --username <username> --table <table_name> --target-dir`
@@ -104,9 +111,8 @@
 	
 	
 # HIVE:
+	- Hive is a data warehouse infrastructure tool to process structured data in Hadoop.
 	- designed for Online Transaction Processing (OLTP). 
-	- OLTP is the systems that facilitate high volume data in very less time with no reliance on the single server.
-	- It is fast, scalable and reliable.
 	- The SQL type querying language provided here is called HiveQL or HQL.
 	
 - Hive commands same as SQL Queries.
