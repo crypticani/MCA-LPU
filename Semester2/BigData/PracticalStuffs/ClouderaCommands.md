@@ -96,6 +96,16 @@
 	 
 	 `ALTER TABLE <table_name> RENAME TO <new_table_name>;` #Rename a table name
 	 
+### Aggregate functions
+
+
+## Hive using file
+
+- create file using .hql extension: `vi student.hql`
+- write sql queries
+- save it
+- run using: `hive -f <filename.hql>`
+	 
 	
 	
 # SQOOP:
