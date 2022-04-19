@@ -1,0 +1,441 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoMatrix",
+            "request": "launch",
+            "mainClass": "AddTwoMatrix",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set4Q1",
+            "request": "launch",
+            "mainClass": "CA1.Set4Q1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set4Q2",
+            "request": "launch",
+            "mainClass": "CA1.Set4Q2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set4Q3",
+            "request": "launch",
+            "mainClass": "CA1.Set4Q3",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set6Q1",
+            "request": "launch",
+            "mainClass": "CA1.Set6Q1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set6Q2",
+            "request": "launch",
+            "mainClass": "CA1.Set6Q2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set6Q3",
+            "request": "launch",
+            "mainClass": "CA1.Set6Q3",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set7Q1",
+            "request": "launch",
+            "mainClass": "CA1.Set7Q1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set7Q2",
+            "request": "launch",
+            "mainClass": "CA1.Set7Q2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set7Q3",
+            "request": "launch",
+            "mainClass": "CA1.Set7Q3",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Set8Q2",
+            "request": "launch",
+            "mainClass": "CA1.Set8Q2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Properties1",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Properties1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Properties2",
+            "request": "launch",
+            "mainClass": "CollectionFramework.Properties2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SystemProperties",
+            "request": "launch",
+            "mainClass": "CollectionFramework.SystemProperties",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda",
+            "request": "launch",
+            "mainClass": "CollectionFramework.lambda",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda1",
+            "request": "launch",
+            "mainClass": "CollectionFramework.lambda1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForEach",
+            "request": "launch",
+            "mainClass": "ForEach",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MariaDB",
+            "request": "launch",
+            "mainClass": "JDBC.MariaDB",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MySQLConnectExample",
+            "request": "launch",
+            "mainClass": "JDBC.MySQLConnectExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "JDBC.Test",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSum",
+            "request": "launch",
+            "mainClass": "MatrixSum",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSum1",
+            "request": "launch",
+            "mainClass": "MatrixSum1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSumCol",
+            "request": "launch",
+            "mainClass": "MatrixSumCol",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSumDiagonal",
+            "request": "launch",
+            "mainClass": "MatrixSumDiagonal",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmpEncapsulation",
+            "request": "launch",
+            "mainClass": "OOPs.EmpEncapsulation",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritence",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritence",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PPF",
+            "request": "launch",
+            "mainClass": "PPF",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeriesOfTables",
+            "request": "launch",
+            "mainClass": "SeriesOfTables",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeriesOfTables2D",
+            "request": "launch",
+            "mainClass": "SeriesOfTables2D",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringConcatenate",
+            "request": "launch",
+            "mainClass": "StringConcatenate",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringSize",
+            "request": "launch",
+            "mainClass": "StringSize",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubString",
+            "request": "launch",
+            "mainClass": "SubString",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Addition",
+            "request": "launch",
+            "mainClass": "Swing.Addition",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Border",
+            "request": "launch",
+            "mainClass": "Swing.Border",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator(1)",
+            "request": "launch",
+            "mainClass": "Swing.Calculator",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorChooserExample",
+            "request": "launch",
+            "mainClass": "Swing.ColorChooserExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorComboBoxEditorDemo",
+            "request": "launch",
+            "mainClass": "Swing.ColorComboBoxEditorDemo",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComboBoxExample",
+            "request": "launch",
+            "mainClass": "Swing.ComboBoxExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComboBoxExample1",
+            "request": "launch",
+            "mainClass": "Swing.ComboBoxExample1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Course",
+            "request": "launch",
+            "mainClass": "Swing.Course",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstSwingExample",
+            "request": "launch",
+            "mainClass": "Swing.FirstSwingExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch NetSalary",
+            "request": "launch",
+            "mainClass": "Swing.NetSalary",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgressBarExample",
+            "request": "launch",
+            "mainClass": "Swing.ProgressBarExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadioButton1",
+            "request": "launch",
+            "mainClass": "Swing.RadioButton1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadioButtonExample",
+            "request": "launch",
+            "mainClass": "Swing.RadioButtonExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simple",
+            "request": "launch",
+            "mainClass": "Swing.Simple",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simple2",
+            "request": "launch",
+            "mainClass": "Swing.Simple2",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SliderExample1",
+            "request": "launch",
+            "mainClass": "Swing.SliderExample1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Swing.Student",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swing1",
+            "request": "launch",
+            "mainClass": "Swing.Swing1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwingDemo1",
+            "request": "launch",
+            "mainClass": "Swing.SwingDemo1",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TableExample",
+            "request": "launch",
+            "mainClass": "Swing.TableExample",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Table",
+            "request": "launch",
+            "mainClass": "Table",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(1)",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Priorities",
+            "request": "launch",
+            "mainClass": "Threads.Priorities",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sleep",
+            "request": "launch",
+            "mainClass": "Threads.Sleep",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch VoteEligibility",
+            "request": "launch",
+            "mainClass": "VoteEligibility",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "JavaPrograms_8f4b1e4f"
+        }
+    ]
+}
