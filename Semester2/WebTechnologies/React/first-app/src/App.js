@@ -1,24 +1,35 @@
-import logo from './knowledgewit_square.png';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          <h1>Hello!</h1>
-          <h3>This is Aniket</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <First />
+        <Second />
+      </div>
+    );
+  }
 }
+class First extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>
+          WELCOME TO FIRST TRY PROGRAM
+        </h1>
+      </div>
+    );
+  }
+}
+class Second extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>KEEP LEARNING</h2>
+        <p> THIS IS NICE TIME TO START LEARNING.</p>
+      </div>
+    );
+  }
 
+}
 export default App;
