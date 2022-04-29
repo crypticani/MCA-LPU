@@ -3,18 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Props from './Components/Props';
-import Stateful from './Components/Stateful';
-import ToggleDisplay from './Components/ToggleDisplay';
-import Car from './Components/Car';
+// import Stateful from './Components/Stateful';
+// import ToggleDisplay from './Components/ToggleDisplay';
+// import Car from './Components/Car';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Props/>
-    <Stateful/>
-    <ToggleDisplay/>
-    <Car/>
   </React.StrictMode>,
   document.getElementById('root')
 );
